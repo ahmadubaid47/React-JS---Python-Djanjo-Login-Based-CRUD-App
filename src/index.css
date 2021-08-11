@@ -1,0 +1,15 @@
+@import url("../node_modules/bootstrap/dist/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+.required:after {
+    color: #e32;
+    content: ' *';
+    display:inline;
+}
+.img-thumbnail {
+    padding: 0.25rem;
+    background-color: #f8fafc;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    max-width: 200px;
+    max-height: 200px;
+}
